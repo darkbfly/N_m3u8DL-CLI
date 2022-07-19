@@ -394,7 +394,7 @@ namespace N_m3u8DL_CLI.NetCore
                     inputRetryCount--;
                     goto input;
                 }
-
+                isVOD = true;
                 //点播
                 if (isVOD == true)
                 {

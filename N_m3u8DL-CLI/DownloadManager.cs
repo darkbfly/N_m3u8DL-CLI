@@ -123,7 +123,7 @@ namespace N_m3u8DL_CLI
             PartsCount = parts.Count;
             segsPadZero = string.Empty.PadRight(oriCount.Length, '0');
             partsPadZero = string.Empty.PadRight(Convert.ToString(parts.Count).Length, '0');
-
+            isVOD = "True";
             //是直播视频
             if (isVOD == "False")
             {
